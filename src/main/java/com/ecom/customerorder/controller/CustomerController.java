@@ -12,6 +12,7 @@ import java.util.List;
 
 @Tag(name = "Customer API", description = "Operations related to customers")
 @RequestMapping("/customers")
+@CrossOrigin(origins = "*")
 public class CustomerController {
     @Autowired
     private CustomerService service;

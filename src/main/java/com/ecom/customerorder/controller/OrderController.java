@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-
+@CrossOrigin(origins = "*")
 @Tag(name = "Customer API", description = "Operations related to customers")
 @RequestMapping("/orders")
 public class OrderController {

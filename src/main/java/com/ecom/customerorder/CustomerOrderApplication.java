@@ -9,5 +9,5 @@ public class CustomerOrderApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerOrderApplication.class, args);
 	}
-
+/* Sample code*/
 }

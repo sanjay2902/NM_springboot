@@ -18,6 +18,6 @@ public class Customer {
     private String email;
 
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
-    @JsonManagedReference
+    @com.ecom.customerorder.model.JsonManagedReference
     private List<Order> orders;
 }
